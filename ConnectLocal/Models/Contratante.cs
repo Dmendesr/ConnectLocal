@@ -9,6 +9,8 @@ namespace ConnectLocal.Models
         [Key]
         public int Id { get; set; }
         [Required]
+        public DateTime Data { get; set; }
+        [Required]
         public string NomeContratante { get; set; }
         [Required]
         public string EndContratante { get; set; }
